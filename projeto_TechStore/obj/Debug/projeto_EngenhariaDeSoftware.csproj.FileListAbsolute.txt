@@ -1,0 +1,197 @@
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.exe.config
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.exe
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.pdb
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.AssemblyReference.cache
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Properties.Resources.resources
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.GenerateResource.cache
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.exe
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.pdb
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Principal.resources
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\MySql.Data.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Buffers.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Memory.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\ZstdSharp.dll
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.pdb
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\MySql.Data.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Buffers.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Memory.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Tarefas.resources
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Cartegorias.resources
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_.B7ADAB5F.Up2Date
+C:\Users\Aluno grau\Documents\ismael\Engenharia de Software\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRMDeletar.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.exe.config
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.exe
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.pdb
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\MySql.Data.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Buffers.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Memory.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\ZstdSharp.dll
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.pdb
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\MySql.Data.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Buffers.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Memory.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.AssemblyReference.cache
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.exe.config
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_Clientes.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Vendas.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Produtos.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Principal.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRMDeletar.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Properties.Resources.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.GenerateResource.cache
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_.B7ADAB5F.Up2Date
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.exe
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.pdb
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_VendasSelect.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_ClientesSelect.resources
+C:\Users\Grau P\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_ProdutosSelect.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.exe.config
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.exe
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.pdb
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\MySql.Data.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Buffers.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Memory.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\ZstdSharp.dll
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.pdb
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\MySql.Data.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Buffers.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Memory.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.AssemblyReference.cache
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_Clientes.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_ClientesSelect.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_ProdutosSelect.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Vendas.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Produtos.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Principal.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_VendasSelect.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRMDeletar.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Properties.Resources.resources
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.GenerateResource.cache
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_.B7ADAB5F.Up2Date
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.exe
+C:\Users\Aluno grau\Desktop\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.pdb
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.exe.config
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.exe
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\projeto_EngenhariaDeSoftware.pdb
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\MySql.Data.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Buffers.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Memory.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\ZstdSharp.dll
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.pdb
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\Google.Protobuf.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\MySql.Data.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Buffers.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Memory.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.AssemblyReference.cache
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_Clientes.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_ClientesSelect.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_ProdutosSelect.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Vendas.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Produtos.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRM_Principal.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Forms.FRM_VendasSelect.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.FRMDeletar.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.Properties.Resources.resources
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.GenerateResource.cache
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_.B7ADAB5F.Up2Date
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.exe
+C:\Users\Aluno grau\Desktop\Projeto_Ismael\projeto_EngenhariaDeSoftware\obj\Debug\projeto_EngenhariaDeSoftware.pdb
