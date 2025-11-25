@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|c:\\users\\juan antony\\desktop\\projeto_techstore\\projeto_techstore\\forms\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|solutionrelative:forms\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|c:\\users\\juan antony\\desktop\\projeto_techstore\\projeto_techstore\\dal\\dal_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|solutionrelative:dal\\dal_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|c:\\users\\juan antony\\desktop\\projeto_techstore\\projeto_techstore\\forms\\frm_clientesselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|solutionrelative:forms\\frm_clientesselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|c:\\users\\juan antony\\desktop\\projeto_techstore\\projeto_techstore\\forms\\frm_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|solutionrelative:forms\\frm_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|c:\\users\\juan antony\\desktop\\projeto_techstore\\projeto_techstore\\forms\\frm_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|solutionrelative:forms\\frm_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +42,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
@@ -38,15 +54,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FRM_Principal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\Forms\\FRM_Principal.cs",
-              "RelativeDocumentMoniker": "Forms\\FRM_Principal.cs",
-              "ToolTip": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\Forms\\FRM_Principal.cs [Design]",
-              "RelativeToolTip": "Forms\\FRM_Principal.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "FRM_Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\Forms\\FRM_Clientes.cs",
+              "RelativeDocumentMoniker": "Forms\\FRM_Clientes.cs",
+              "ToolTip": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\Forms\\FRM_Clientes.cs",
+              "RelativeToolTip": "Forms\\FRM_Clientes.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T23:28:09.67Z",
+              "WhenOpened": "2025-11-25T00:17:26.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FRM_Clientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\Forms\\FRM_Clientes.cs",
+              "RelativeDocumentMoniker": "Forms\\FRM_Clientes.cs",
+              "ToolTip": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\Forms\\FRM_Clientes.cs [Design]",
+              "RelativeToolTip": "Forms\\FRM_Clientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:17:23.96Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FRM_ClientesSelect.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\Forms\\FRM_ClientesSelect.cs",
+              "RelativeDocumentMoniker": "Forms\\FRM_ClientesSelect.cs",
+              "ToolTip": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\Forms\\FRM_ClientesSelect.cs [Design]",
+              "RelativeToolTip": "Forms\\FRM_ClientesSelect.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:11:40.044Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAL_Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\DAL\\DAL_Clientes.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Clientes.cs",
+              "ToolTip": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\DAL\\DAL_Clientes.cs",
+              "RelativeToolTip": "DAL\\DAL_Clientes.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswGQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:19:15.355Z",
+              "EditorCaption": ""
             }
           ]
         }

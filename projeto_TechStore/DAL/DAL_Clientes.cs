@@ -12,7 +12,7 @@ using projeto_TechStore.Interfaces;
 
 namespace projeto_TechStore.DAL
 {
-    internal class DAL_Clientes:IClientes
+    internal class DAL_Clientes : IClientes
     {
         private MySqlConnection _conexao;
         MySqlCommand comando = new MySqlCommand();
@@ -23,9 +23,11 @@ namespace projeto_TechStore.DAL
 
         public void Deletar_Clientes(int codigo_cliente)
         {
-            _conexao.Open();
+
             try
             {
+                _conexao.Open();
+
                 string _sql = "DELETE FROM TB_CLIENTES WHERE ID=@ID";
                 MySqlCommand comando = new MySqlCommand(_sql, _conexao);
 
@@ -40,29 +42,32 @@ namespace projeto_TechStore.DAL
                 if (linhas == 1)
                 {
                     MessageBox.Show("Cliente excluido com sucesso!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    _conexao.Close();
                 }
 
                 if (linhas == 0)
                 {
-                    MessageBox.Show("O id informado não existe", "Erro ao excluir Cliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("O ID informado não existe.", "Erro ao excluir cliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (System.Exception e)
             {
-                MessageBox.Show(e.Message, "Erro ao excluir Cliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(e.Message, "Erro ao excluir cliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
-                _conexao.Close();
+                if (_conexao.State == ConnectionState.Open)
+                {
+                    _conexao.Close();
+                }
             }
         }
 
         public void Editar_Clientes(Clientes clientes)
         {
-            _conexao.Open();
             try
             {
+                _conexao.Open();
+
                 string _sql = "UPDATE TB_CLIENTES SET nome=@nome,email=@email WHERE id=@id";
                 comando = new MySqlCommand(_sql, _conexao);
 
@@ -77,45 +82,50 @@ namespace projeto_TechStore.DAL
                 comando.ExecuteNonQuery();
 
                 MessageBox.Show("Cliente editado com sucesso!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                _conexao.Close();
             }
             catch (System.Exception e)
             {
-                MessageBox.Show(e.Message, "Erro ao editar Cliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(e.Message, "Erro ao editar cliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
-                _conexao.Close();
+                if (_conexao.State == ConnectionState.Open)
+                {
+                    _conexao.Close();
+                }
             }
         }
 
         public void Inserir_Clientes(Clientes clientes)
         {
-            _conexao.Open();
             try
             {
+                _conexao.Open();
+
                 string _sql = "INSERT INTO TB_CLIENTES (nome,email) VALUES (@nome,@email)";
                 comando = new MySqlCommand(_sql, _conexao);
 
                 comando.CommandText = _sql;
                 comando.Connection = _conexao;
 
-                comando.Parameters.AddWithValue("nome", clientes.nome);
-                comando.Parameters.AddWithValue("email", clientes.email);
+                comando.Parameters.AddWithValue("@nome", clientes.nome);
+                comando.Parameters.AddWithValue("@email", clientes.email);
 
                 comando.Prepare();
                 comando.ExecuteNonQuery();
 
                 MessageBox.Show("Cliente inserido com sucesso!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                _conexao.Close();
             }
             catch (System.Exception e)
             {
-                MessageBox.Show(e.Message, "Erro ao inserir Cliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(e.Message, "Erro ao inserir cliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
-                _conexao.Close();
+                if (_conexao.State == ConnectionState.Open)
+                { 
+                    _conexao.Close();
+                }
             }
         }
 
@@ -143,7 +153,10 @@ namespace projeto_TechStore.DAL
             }
             finally
             {
-                _conexao.Close();
+                if (_conexao.State == ConnectionState.Open)
+                {
+                    _conexao.Close();
+                }
             }
         }
     }

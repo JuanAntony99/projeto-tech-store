@@ -42,7 +42,7 @@ namespace projeto_TechStore.Forms
             }
             else
             {
-                MessageBox.Show("Insira o id da venda a ser excluida", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Insira o ID do cliente a ser excluido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -59,8 +59,7 @@ namespace projeto_TechStore.Forms
             }
             else
             {
-                MessageBox.Show("O campo Id só é usado para o metodo Editar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                MessageBox.Show("O campo ID só é usado para o método Editar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -78,8 +77,7 @@ namespace projeto_TechStore.Forms
             }
             else
             {
-                MessageBox.Show("Insira o id da cartegoria a ser editado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                MessageBox.Show("Insira o ID do cliente a ser editado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

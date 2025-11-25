@@ -32,8 +32,6 @@
             this.btn_excluir = new System.Windows.Forms.Button();
             this.btn_editar = new System.Windows.Forms.Button();
             this.btn_adicionar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txt_preco = new System.Windows.Forms.TextBox();
             this.txt_nome = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -41,6 +39,8 @@
             this.txt_id = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_listar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,28 +95,6 @@
             this.btn_adicionar.Text = "Adicionar";
             this.btn_adicionar.UseVisualStyleBackColor = false;
             this.btn_adicionar.Click += new System.EventHandler(this.btn_adicionar_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 25);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Produtos";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(667, 48);
-            this.pictureBox1.TabIndex = 24;
-            this.pictureBox1.TabStop = false;
             // 
             // txt_preco
             // 
@@ -185,11 +163,36 @@
             this.btn_listar.UseVisualStyleBackColor = false;
             this.btn_listar.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(16, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 25);
+            this.label1.TabIndex = 39;
+            this.label1.Text = "Produtos";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(679, 48);
+            this.pictureBox1.TabIndex = 38;
+            this.pictureBox1.TabStop = false;
+            // 
             // FRM_Produtos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(667, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.txt_preco);
             this.Controls.Add(this.txt_nome);
@@ -197,8 +200,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txt_id);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_limparCampos);
             this.Controls.Add(this.btn_excluir);
             this.Controls.Add(this.btn_editar);
@@ -217,8 +218,6 @@
         private System.Windows.Forms.Button btn_excluir;
         private System.Windows.Forms.Button btn_editar;
         private System.Windows.Forms.Button btn_adicionar;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txt_preco;
         private System.Windows.Forms.TextBox txt_nome;
         private System.Windows.Forms.Label label7;
@@ -226,5 +225,7 @@
         private System.Windows.Forms.TextBox txt_id;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_listar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

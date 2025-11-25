@@ -72,8 +72,6 @@
             // 
             // txt_id
             // 
-            this.txt_id.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_id.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.txt_id.Location = new System.Drawing.Point(115, 115);
             this.txt_id.Name = "txt_id";
@@ -113,8 +111,6 @@
             // 
             // btn_adicionar
             // 
-            this.btn_adicionar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_adicionar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
             this.btn_adicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_adicionar.ForeColor = System.Drawing.Color.White;
@@ -128,8 +124,6 @@
             // 
             // btn_editar
             // 
-            this.btn_editar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
             this.btn_editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editar.ForeColor = System.Drawing.Color.White;
@@ -143,8 +137,6 @@
             // 
             // btn_excluir
             // 
-            this.btn_excluir.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_excluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
             this.btn_excluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_excluir.ForeColor = System.Drawing.Color.White;
@@ -158,8 +150,6 @@
             // 
             // btn_limparCampos
             // 
-            this.btn_limparCampos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_limparCampos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
             this.btn_limparCampos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_limparCampos.ForeColor = System.Drawing.Color.White;
@@ -173,7 +163,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
             this.pictureBox1.Location = new System.Drawing.Point(-4, -1);
@@ -184,8 +174,6 @@
             // 
             // txt_idcliente
             // 
-            this.txt_idcliente.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_idcliente.BackColor = System.Drawing.Color.White;
             this.txt_idcliente.Location = new System.Drawing.Point(265, 115);
             this.txt_idcliente.Name = "txt_idcliente";
@@ -194,8 +182,6 @@
             // 
             // txt_idproduto
             // 
-            this.txt_idproduto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_idproduto.BackColor = System.Drawing.Color.White;
             this.txt_idproduto.Location = new System.Drawing.Point(415, 115);
             this.txt_idproduto.Name = "txt_idproduto";
@@ -205,8 +191,6 @@
             // 
             // txt_quantidade
             // 
-            this.txt_quantidade.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_quantidade.BackColor = System.Drawing.Color.White;
             this.txt_quantidade.Location = new System.Drawing.Point(156, 219);
             this.txt_quantidade.Name = "txt_quantidade";
@@ -215,8 +199,6 @@
             // 
             // txt_dataVenda
             // 
-            this.txt_dataVenda.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_dataVenda.BackColor = System.Drawing.Color.White;
             this.txt_dataVenda.Location = new System.Drawing.Point(334, 219);
             this.txt_dataVenda.Name = "txt_dataVenda";
@@ -237,8 +219,6 @@
             // 
             // btn_listar
             // 
-            this.btn_listar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_listar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
             this.btn_listar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_listar.ForeColor = System.Drawing.Color.White;
