@@ -159,5 +159,49 @@ namespace projeto_TechStore.DAL
                 }
             }
         }
+
+            public DataTable Selecionar_Clientes_porID(int id)
+        {
+            // A conexão está aberta APENAS para o escopo do MySqlDataAdapter, 
+            // então a abertura/fechamento da conexão pode ser omitida aqui ou 
+            // feita dentro de um bloco using no MySqlDataAdapter para melhor gerenciamento.
+
+            DataTable dt = new DataTable();
+            // A string SQL está correta agora (assumindo que você removeu o 'W' e 'v.')
+            string sql = "SELECT * FROM tb_clientes WHERE id = @id";
+
+            using (MySqlCommand comandoSql = new MySqlCommand(sql, _conexao)) // Usando 'using' aqui seria ideal
+            {
+                // 1. Adicionar o parâmetro com tipo explícito (mais seguro)
+                comandoSql.Parameters.Add("@id", MySqlDbType.Int32).Value = id;
+
+                // 2. Criar o DataAdapter para executar a query e preencher a tabela
+                MySqlDataAdapter sql_relacao = new MySqlDataAdapter(comandoSql);
+
+                try
+                {
+                    // A abertura da conexão é necessária para o Fill, se a conexão 
+                    // não for gerenciada pelo DataAdapter implicitamente.
+                    _conexao.Open();
+
+                    sql_relacao.Fill(dt); // Executa a consulta SELECT e preenche o DataTable
+
+                    return dt;
+                }
+                catch (Exception erro)
+                {
+                    MessageBox.Show(erro.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return null;
+                }
+                finally
+                {
+                    // 3. O fechamento da conexão está correto no finally
+                    if (_conexao != null && _conexao.State == ConnectionState.Open)
+                    {
+                        _conexao.Close();
+                    }
+                }
+            }
+        }
     }
-}
+    }

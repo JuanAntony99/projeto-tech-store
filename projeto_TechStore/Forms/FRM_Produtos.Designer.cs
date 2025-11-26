@@ -41,9 +41,9 @@
             this.btn_listar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dvg_produtos = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvg_produtos)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_limparCampos
@@ -141,6 +141,7 @@
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(100, 20);
             this.txt_id.TabIndex = 27;
+            this.txt_id.TextChanged += new System.EventHandler(this.txt_id_TextChanged_1);
             // 
             // label2
             // 
@@ -154,7 +155,7 @@
             // 
             // btn_listar
             // 
-            this.btn_listar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btn_listar.BackColor = System.Drawing.Color.Red;
             this.btn_listar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_listar.ForeColor = System.Drawing.Color.White;
             this.btn_listar.Location = new System.Drawing.Point(169, 380);
@@ -188,20 +189,21 @@
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
             // 
-            // dataGridView1
+            // dvg_produtos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 206);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(629, 137);
-            this.dataGridView1.TabIndex = 40;
+            this.dvg_produtos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvg_produtos.Location = new System.Drawing.Point(21, 206);
+            this.dvg_produtos.Name = "dvg_produtos";
+            this.dvg_produtos.Size = new System.Drawing.Size(629, 137);
+            this.dvg_produtos.TabIndex = 40;
+            this.dvg_produtos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // FRM_Produtos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(667, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dvg_produtos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_listar);
@@ -218,8 +220,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FRM_Produtos";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.FRM_Produtos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvg_produtos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -239,6 +242,6 @@
         private System.Windows.Forms.Button btn_listar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dvg_produtos;
     }
 }

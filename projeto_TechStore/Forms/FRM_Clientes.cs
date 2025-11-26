@@ -50,6 +50,7 @@ namespace projeto_TechStore.Forms
             {
                 MessageBox.Show("Insira o ID do cliente a ser excluido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ListarClientes();
         }
 
         private void btn_adicionar_Click(object sender, EventArgs e)
@@ -72,6 +73,7 @@ namespace projeto_TechStore.Forms
             {
                 MessageBox.Show("Insira dados para completar a operação", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ListarClientes();
         }
 
         private bool Isnull()
@@ -102,6 +104,7 @@ namespace projeto_TechStore.Forms
             {
                 MessageBox.Show("Insira o ID do cliente a ser editado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ListarClientes();
         }
 
         private void btn_listar_Click(object sender, EventArgs e)
@@ -123,6 +126,62 @@ namespace projeto_TechStore.Forms
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void FRM_Clientes_Load(object sender, EventArgs e)
+        {
+            ListarClientes();
+        }
+
+        private void txt_id_TextChanged(object sender, EventArgs e)
+        {
+            // rodar funcao para preencher os campos ao digitar o id
+            exibirDadosDoID(txt_id.Text);
+        }
+
+        private void exibirDadosDoID(string id)
+        {
+            IClientes itar = new DAL_Clientes();
+            DataTable clientesdatatable;
+            if (string.IsNullOrWhiteSpace(id))
+            {
+                // Se o ID estiver vazio, limpar os campos e sair
+                LimparCampos();
+                clientesdatatable = null;
+            }
+            else
+            {
+                clientesdatatable = itar.Selecionar_Clientes_porID(int.Parse(id));
+            }
+            if (clientesdatatable != null && clientesdatatable.Rows.Count > 0)
+            {
+                try
+                {
+                    DataRow clientes = clientesdatatable.Rows[0];
+
+                    txt_nome.Text = clientes["nome"].ToString();
+                    txt_email.Text = clientes["email"].ToString();
+                    // aqui vai dar erro pq ainda nao tem essas colunas no db,
+                    // nao precisa mudar a dal ela ta fazendo select *
+                    txt_telefone.Text = clientes["telefone"].ToString();
+                    txt_cpf.Text = clientes["cpf"].ToString();
+
+                }
+                catch (Exception ex)
+                {
+                    // O bloco try-catch te ajudará a ver exatamente qual coluna causou o erro 
+                    // se o problema for de conversão de tipo (ex: tentar ler uma string como int).
+                    MessageBox.Show("Ocorreu um erro: " + ex.Message);
+                }
+            }
+            // ... restante
+        }
+
+        private void ListarClientes()
+        {
+            DAL_Clientes dp = new DAL_Clientes();
+
+            dvg_clientes.DataSource = dp.Selecionar_Clientes();
         }
     }
 }

@@ -41,13 +41,13 @@
             this.btn_editar = new System.Windows.Forms.Button();
             this.btn_adicionar = new System.Windows.Forms.Button();
             this.btn_listar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.dvg_clientes = new System.Windows.Forms.DataGridView();
+            this.txt_cpf = new System.Windows.Forms.TextBox();
+            this.txt_telefone = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvg_clientes)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_email
@@ -93,6 +93,7 @@
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(100, 20);
             this.txt_id.TabIndex = 39;
+            this.txt_id.TextChanged += new System.EventHandler(this.txt_id_TextChanged);
             // 
             // label2
             // 
@@ -182,7 +183,7 @@
             // 
             // btn_listar
             // 
-            this.btn_listar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btn_listar.BackColor = System.Drawing.Color.Red;
             this.btn_listar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_listar.ForeColor = System.Drawing.Color.White;
             this.btn_listar.Location = new System.Drawing.Point(169, 380);
@@ -193,30 +194,30 @@
             this.btn_listar.UseVisualStyleBackColor = false;
             this.btn_listar.Click += new System.EventHandler(this.btn_listar_Click);
             // 
-            // dataGridView1
+            // dvg_clientes
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 206);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(629, 137);
-            this.dataGridView1.TabIndex = 45;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dvg_clientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvg_clientes.Location = new System.Drawing.Point(21, 206);
+            this.dvg_clientes.Name = "dvg_clientes";
+            this.dvg_clientes.Size = new System.Drawing.Size(629, 137);
+            this.dvg_clientes.TabIndex = 45;
+            this.dvg_clientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // textBox1
+            // txt_cpf
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(379, 180);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 46;
+            this.txt_cpf.BackColor = System.Drawing.Color.White;
+            this.txt_cpf.Location = new System.Drawing.Point(379, 180);
+            this.txt_cpf.Name = "txt_cpf";
+            this.txt_cpf.Size = new System.Drawing.Size(100, 20);
+            this.txt_cpf.TabIndex = 46;
             // 
-            // textBox2
+            // txt_telefone
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(254, 180);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 47;
+            this.txt_telefone.BackColor = System.Drawing.Color.White;
+            this.txt_telefone.Location = new System.Drawing.Point(254, 180);
+            this.txt_telefone.Name = "txt_telefone";
+            this.txt_telefone.Size = new System.Drawing.Size(100, 20);
+            this.txt_telefone.TabIndex = 47;
             // 
             // label3
             // 
@@ -246,9 +247,9 @@
             this.ClientSize = new System.Drawing.Size(667, 450);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.txt_telefone);
+            this.Controls.Add(this.txt_cpf);
+            this.Controls.Add(this.dvg_clientes);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.txt_email);
             this.Controls.Add(this.txt_nome);
@@ -265,8 +266,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FRM_Clientes";
             this.Text = "FRM_Clientes";
+            this.Load += new System.EventHandler(this.FRM_Clientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvg_clientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,9 +289,9 @@
         private System.Windows.Forms.Button btn_editar;
         private System.Windows.Forms.Button btn_adicionar;
         private System.Windows.Forms.Button btn_listar;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DataGridView dvg_clientes;
+        private System.Windows.Forms.TextBox txt_cpf;
+        private System.Windows.Forms.TextBox txt_telefone;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
     }

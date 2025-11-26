@@ -19,6 +19,7 @@ namespace projeto_TechStore
 
         private void FRM_Tarefas_Load(object sender, EventArgs e)
         {
+            ListarVendas();
             DAL_Clientes clientes = new DAL_Clientes();
             comboBox1.DataSource = clientes.Selecionar_Clientes();
             comboBox1.DisplayMember = "nome";
@@ -75,6 +76,7 @@ namespace projeto_TechStore
             {
                 MessageBox.Show("Insira dados para completar a operação", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ListarVendas();
         }
 
         private bool Isnull()
@@ -124,6 +126,7 @@ namespace projeto_TechStore
                 MessageBox.Show("Insira o ID da cartegoria a ser editado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
+            ListarVendas();
         }
 
         private void btn_excluir_Click(object sender, EventArgs e)
@@ -143,6 +146,7 @@ namespace projeto_TechStore
             {
                 MessageBox.Show("Insira o ID da venda a ser excluida", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ListarVendas();
         }
 
         private void label3_Click_1(object sender, EventArgs e)
@@ -197,51 +201,59 @@ namespace projeto_TechStore
             exibirDadosDoID(txt_id.Text);
         }
 
-        private void exibirDadosDoID(string id)
+    private void exibirDadosDoID(string id)
+    {
+        IVendas itar = new DAL_Vendas();
+        DataTable vendadatatable;
+        if (string.IsNullOrWhiteSpace(id))
         {
-            IVendas itar = new DAL_Vendas();
-            DataTable vendadatatable;
-            if (string.IsNullOrWhiteSpace(id))
-            {
-                // Se o ID estiver vazio, limpar os campos e sair
-                LimparCampos();
-                vendadatatable = null;
-            }
-            else
-            {
-                vendadatatable = itar.Selecionar_Vendas_porID(int.Parse(id));
-            }
-            if (vendadatatable != null && vendadatatable.Rows.Count > 0)
-            {
-                try
-                {
-                    DataRow venda = vendadatatable.Rows[0];
-
-                    // 1. Coluna 'id' (correto!)
-                    //txt_id.Text = venda["id"].ToString();
-
-                    // 2. Coluna 'ID_Cliente' (ATENÇÃO: I e C maiúsculos)
-                    comboBox1.SelectedValue = Convert.ToInt32(venda["ID_Cliente"]);
-                    
-                    // 3. Coluna 'ID_Produto' (ATENÇÃO: I e P maiúsculos)
-                    comboBox2.SelectedValue = Convert.ToInt32(venda["ID_Produto"]);
-
-                    // 4. Coluna 'quantidade' (tudo minúsculo)
-                    txt_quantidade.Text = venda["quantidade"].ToString();
-
-                    // 5. Coluna 'dataVenda' (ATENÇÃO: 'V' maiúsculo)
-                    // Também, use o Field<T> para garantir que a data seja lida corretamente
-                    DateTime data = venda.Field<DateTime>("dataVenda");
-                    txt_dataVenda.Text = data.ToShortDateString();
-                }
-                catch (Exception ex)
-                {
-                    // O bloco try-catch te ajudará a ver exatamente qual coluna causou o erro 
-                    // se o problema for de conversão de tipo (ex: tentar ler uma string como int).
-                    MessageBox.Show("Ocorreu um erro: " + ex.Message);
-                }
-            }
-            // ... restante
+            // Se o ID estiver vazio, limpar os campos e sair
+            LimparCampos();
+            vendadatatable = null;
         }
+        else
+        {
+            vendadatatable = itar.Selecionar_Vendas_porID(int.Parse(id));
+        }
+        if (vendadatatable != null && vendadatatable.Rows.Count > 0)
+        {
+            try
+            {
+                DataRow venda = vendadatatable.Rows[0];
+
+                // 1. Coluna 'id' (correto!)
+                //txt_id.Text = venda["id"].ToString();
+
+                // 2. Coluna 'ID_Cliente' (ATENÇÃO: I e C maiúsculos)
+                comboBox1.SelectedValue = Convert.ToInt32(venda["ID_Cliente"]);
+                    
+                // 3. Coluna 'ID_Produto' (ATENÇÃO: I e P maiúsculos)
+                comboBox2.SelectedValue = Convert.ToInt32(venda["ID_Produto"]);
+
+                // 4. Coluna 'quantidade' (tudo minúsculo)
+                txt_quantidade.Text = venda["quantidade"].ToString();
+
+                // 5. Coluna 'dataVenda' (ATENÇÃO: 'V' maiúsculo)
+                // Também, use o Field<T> para garantir que a data seja lida corretamente
+                DateTime data = venda.Field<DateTime>("dataVenda");
+                txt_dataVenda.Text = data.ToShortDateString();
+            }
+            catch (Exception ex)
+            {
+                // O bloco try-catch te ajudará a ver exatamente qual coluna causou o erro 
+                // se o problema for de conversão de tipo (ex: tentar ler uma string como int).
+                MessageBox.Show("Ocorreu um erro: " + ex.Message);
+            }
+        }
+        // ... restante
     }
+    private void ListarVendas()
+    {
+        //id_selecionado = 0;
+        //btn_deletar.Enabled = false;
+        DAL_Vendas dp = new DAL_Vendas();
+
+        dvg_vendas.DataSource = dp.Selecionar_Vendas();
+    }
+}
 }

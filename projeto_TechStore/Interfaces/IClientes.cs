@@ -13,6 +13,7 @@ namespace projeto_TechStore.Interfaces
         void Editar_Clientes(Clientes clientes);
         void Deletar_Clientes(int codigo_cliente);
         DataTable Selecionar_Clientes();
+        DataTable Selecionar_Clientes_porID(int id);
         void Inserir_Clientes(Clientes clientes);
     }
 }

@@ -13,6 +13,7 @@ namespace projeto_TechStore.Interfaces
         void Editar_Produto(Produtos produtos);
         void Deletar_Produto(int codigo_produto);
         DataTable Selecionar_Produto();
+        DataTable Selecionar_Produtos_porID(int id);
         void Inserir_Produto(Produtos produtos);
     }
 }

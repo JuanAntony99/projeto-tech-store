@@ -1,4 +1,8 @@
-﻿using System;
+﻿using projeto_TechStore.Classes;
+using projeto_TechStore.DAL;
+using projeto_TechStore.Forms;
+using projeto_TechStore.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,10 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using projeto_TechStore.Classes;
-using projeto_TechStore.DAL;
-using projeto_TechStore.Forms;
-using projeto_TechStore.Interfaces;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace projeto_TechStore
 {
@@ -71,6 +72,7 @@ namespace projeto_TechStore
             {
                 MessageBox.Show("Insira o ID do produto a ser excluído", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ListarProdutos();
         }
 
         private void btn_editar_Click(object sender, EventArgs e)
@@ -90,6 +92,7 @@ namespace projeto_TechStore
                 MessageBox.Show("Insira o id da cartegoria a ser editado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
+            ListarProdutos();
         }
 
         private void btn_adicionar_Click(object sender, EventArgs e)
@@ -112,6 +115,7 @@ namespace projeto_TechStore
             {
                 MessageBox.Show("Insira dados para completar a operação", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ListarProdutos();
         }
 
         private bool Isnull()
@@ -135,6 +139,62 @@ namespace projeto_TechStore
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void txt_id_TextChanged_1(object sender, EventArgs e)
+        {
+            // rodar funcao para preencher os campos ao digitar o id
+            exibirDadosDoID(txt_id.Text);
+        }
+
+        private void exibirDadosDoID(string id)
+        {
+            IProdutos itar = new DAL_Produtos();
+            DataTable produtosdatatable;
+            if (string.IsNullOrWhiteSpace(id))
+            {
+                // Se o ID estiver vazio, limpar os campos e sair
+                LimparCampos();
+                produtosdatatable = null;
+            }
+            else
+            {
+                produtosdatatable = itar.Selecionar_Produtos_porID(int.Parse(id));
+            }
+            if (produtosdatatable != null && produtosdatatable.Rows.Count > 0)
+            {
+                try
+                {
+                    DataRow produtos = produtosdatatable.Rows[0];
+
+                    txt_nome.Text = produtos["nome"].ToString();
+                    txt_preco.Text = produtos["preco"].ToString();
+                }
+                catch (Exception ex)
+                {
+                    // O bloco try-catch te ajudará a ver exatamente qual coluna causou o erro 
+                    // se o problema for de conversão de tipo (ex: tentar ler uma string como int).
+                    MessageBox.Show("Ocorreu um erro: " + ex.Message);
+                }
+            }
+            // ... restante
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ListarProdutos()
+        {
+            DAL_Produtos dp = new DAL_Produtos();
+
+            dvg_produtos.DataSource = dp.Selecionar_Produto();
+        }
+
+        private void FRM_Produtos_Load(object sender, EventArgs e)
+        {
+            ListarProdutos();
         }
     }
 }
