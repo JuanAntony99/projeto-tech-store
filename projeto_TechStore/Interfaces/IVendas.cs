@@ -14,6 +14,7 @@ namespace projeto_TechStore.Interfaces
         void Editar_Vendas(Vendas vendas);
         void Deletar_Vendas(int codigo_venda);
         DataTable Selecionar_Vendas();
+        DataTable Selecionar_Vendas_porID(int id);
         void Inserir_Vendas(Vendas vendas);
     }
 }

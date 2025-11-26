@@ -45,6 +45,7 @@
             this.dvg_clientes.Name = "dvg_clientes";
             this.dvg_clientes.Size = new System.Drawing.Size(667, 402);
             this.dvg_clientes.TabIndex = 7;
+            this.dvg_clientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvg_clientes_CellContentClick);
             // 
             // label1
             // 

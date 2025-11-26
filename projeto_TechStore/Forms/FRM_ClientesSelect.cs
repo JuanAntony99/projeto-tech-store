@@ -30,5 +30,10 @@ namespace projeto_TechStore.Forms
 
             dvg_clientes.DataSource = dp.Selecionar_Clientes();
         }
+
+        private void dvg_clientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
