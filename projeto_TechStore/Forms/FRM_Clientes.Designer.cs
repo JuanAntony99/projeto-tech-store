@@ -42,10 +42,10 @@
             this.btn_adicionar = new System.Windows.Forms.Button();
             this.btn_listar = new System.Windows.Forms.Button();
             this.dvg_clientes = new System.Windows.Forms.DataGridView();
-            this.txt_cpf = new System.Windows.Forms.TextBox();
-            this.txt_telefone = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.txt_telefone = new System.Windows.Forms.TextBox();
+            this.txt_cpf = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dvg_clientes)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +57,7 @@
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(100, 20);
             this.txt_email.TabIndex = 43;
+            this.txt_email.TextChanged += new System.EventHandler(this.txt_email_TextChanged);
             // 
             // txt_nome
             // 
@@ -203,22 +204,6 @@
             this.dvg_clientes.TabIndex = 45;
             this.dvg_clientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // txt_cpf
-            // 
-            this.txt_cpf.BackColor = System.Drawing.Color.White;
-            this.txt_cpf.Location = new System.Drawing.Point(379, 180);
-            this.txt_cpf.Name = "txt_cpf";
-            this.txt_cpf.Size = new System.Drawing.Size(100, 20);
-            this.txt_cpf.TabIndex = 46;
-            // 
-            // txt_telefone
-            // 
-            this.txt_telefone.BackColor = System.Drawing.Color.White;
-            this.txt_telefone.Location = new System.Drawing.Point(254, 180);
-            this.txt_telefone.Name = "txt_telefone";
-            this.txt_telefone.Size = new System.Drawing.Size(100, 20);
-            this.txt_telefone.TabIndex = 47;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -240,15 +225,33 @@
             this.label5.Text = "Telefone:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // txt_telefone
+            // 
+            this.txt_telefone.BackColor = System.Drawing.Color.White;
+            this.txt_telefone.Location = new System.Drawing.Point(254, 180);
+            this.txt_telefone.Name = "txt_telefone";
+            this.txt_telefone.Size = new System.Drawing.Size(100, 20);
+            this.txt_telefone.TabIndex = 50;
+            this.txt_telefone.TextChanged += new System.EventHandler(this.txt_telefone_TextChanged_1);
+            // 
+            // txt_cpf
+            // 
+            this.txt_cpf.BackColor = System.Drawing.Color.White;
+            this.txt_cpf.Location = new System.Drawing.Point(379, 181);
+            this.txt_cpf.Name = "txt_cpf";
+            this.txt_cpf.Size = new System.Drawing.Size(100, 20);
+            this.txt_cpf.TabIndex = 51;
+            this.txt_cpf.TextChanged += new System.EventHandler(this.txt_cpf_TextChanged);
+            // 
             // FRM_Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(667, 450);
+            this.Controls.Add(this.txt_cpf);
+            this.Controls.Add(this.txt_telefone);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txt_telefone);
-            this.Controls.Add(this.txt_cpf);
             this.Controls.Add(this.dvg_clientes);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.txt_email);
@@ -290,9 +293,9 @@
         private System.Windows.Forms.Button btn_adicionar;
         private System.Windows.Forms.Button btn_listar;
         private System.Windows.Forms.DataGridView dvg_clientes;
-        private System.Windows.Forms.TextBox txt_cpf;
-        private System.Windows.Forms.TextBox txt_telefone;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txt_telefone;
+        private System.Windows.Forms.TextBox txt_cpf;
     }
 }

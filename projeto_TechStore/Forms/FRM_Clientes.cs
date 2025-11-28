@@ -52,7 +52,6 @@ namespace projeto_TechStore.Forms
             }
             ListarClientes();
         }
-
         private void btn_adicionar_Click(object sender, EventArgs e)
         {
             Clientes tar = new Clientes();
@@ -62,6 +61,9 @@ namespace projeto_TechStore.Forms
             {
                 tar.nome = txt_nome.Text;
                 tar.email = txt_email.Text;
+                tar.telefone = string.IsNullOrWhiteSpace(txt_telefone.Text) ? null : txt_telefone.Text;
+                tar.cpf = string.IsNullOrWhiteSpace(txt_cpf.Text) ? null : txt_cpf.Text;
+
                 itar.Inserir_Clientes(tar);
                 LimparCampos();
             }
@@ -75,6 +77,29 @@ namespace projeto_TechStore.Forms
             }
             ListarClientes();
         }
+        //private void btn_adicionar_Click(object sender, EventArgs e)
+        //{
+        //    Clientes tar = new Clientes();
+        //    IClientes itar = new DAL_Clientes();
+        //    bool a = Isnull();
+        //    if (string.IsNullOrWhiteSpace(txt_id.Text) && a)
+        //    {
+        //        tar.nome = txt_nome.Text;
+        //        tar.email = txt_email.Text;
+        //        itar.Inserir_Clientes(tar);
+        //        LimparCampos();
+        //    }
+        //    else if (!string.IsNullOrWhiteSpace(txt_id.Text))
+        //    {
+        //        MessageBox.Show("O campo ID só é usado para o método Editar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
+        //    else if (!a)
+        //    {
+        //        MessageBox.Show("Insira dados para completar a operação", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
+        //    ListarClientes();
+        //}
+
 
         private bool Isnull()
         {
@@ -182,6 +207,26 @@ namespace projeto_TechStore.Forms
             DAL_Clientes dp = new DAL_Clientes();
 
             dvg_clientes.DataSource = dp.Selecionar_Clientes();
+        }
+
+        private void txt_telefone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_telefone_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_cpf_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

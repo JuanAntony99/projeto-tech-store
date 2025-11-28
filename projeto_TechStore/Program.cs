@@ -8,9 +8,7 @@ namespace projeto_TechStore
 {
     internal static class Program
     {
-        /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
-        /// </summary>
+        
         [STAThread]
         static void Main()
         {

@@ -30,28 +30,28 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_Principal));
             this.panelPrincipal = new System.Windows.Forms.Panel();
+            this.pctbox_produtos = new System.Windows.Forms.PictureBox();
+            this.pctbox_clientes = new System.Windows.Forms.PictureBox();
+            this.pctbox_vendas = new System.Windows.Forms.PictureBox();
+            this.pctbox_home = new System.Windows.Forms.PictureBox();
             this.btn_produtos = new System.Windows.Forms.Button();
             this.btn_clientes = new System.Windows.Forms.Button();
             this.btn_vendas = new System.Windows.Forms.Button();
             this.btn_home = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_Form = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panelPrincipal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox_produtos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox_clientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox_vendas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox_home)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel_Form.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panelPrincipal
@@ -59,10 +59,10 @@
             this.panelPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panelPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panelPrincipal.Controls.Add(this.pictureBox5);
-            this.panelPrincipal.Controls.Add(this.pictureBox6);
-            this.panelPrincipal.Controls.Add(this.pictureBox4);
-            this.panelPrincipal.Controls.Add(this.pictureBox3);
+            this.panelPrincipal.Controls.Add(this.pctbox_produtos);
+            this.panelPrincipal.Controls.Add(this.pctbox_clientes);
+            this.panelPrincipal.Controls.Add(this.pctbox_vendas);
+            this.panelPrincipal.Controls.Add(this.pctbox_home);
             this.panelPrincipal.Controls.Add(this.btn_produtos);
             this.panelPrincipal.Controls.Add(this.btn_clientes);
             this.panelPrincipal.Controls.Add(this.btn_vendas);
@@ -74,6 +74,50 @@
             this.panelPrincipal.Size = new System.Drawing.Size(133, 450);
             this.panelPrincipal.TabIndex = 0;
             this.panelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPrincipal_Paint);
+            // 
+            // pctbox_produtos
+            // 
+            this.pctbox_produtos.BackColor = System.Drawing.Color.Transparent;
+            this.pctbox_produtos.Image = ((System.Drawing.Image)(resources.GetObject("pctbox_produtos.Image")));
+            this.pctbox_produtos.Location = new System.Drawing.Point(75, 201);
+            this.pctbox_produtos.Name = "pctbox_produtos";
+            this.pctbox_produtos.Size = new System.Drawing.Size(42, 39);
+            this.pctbox_produtos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctbox_produtos.TabIndex = 27;
+            this.pctbox_produtos.TabStop = false;
+            // 
+            // pctbox_clientes
+            // 
+            this.pctbox_clientes.BackColor = System.Drawing.Color.Transparent;
+            this.pctbox_clientes.Image = ((System.Drawing.Image)(resources.GetObject("pctbox_clientes.Image")));
+            this.pctbox_clientes.Location = new System.Drawing.Point(75, 156);
+            this.pctbox_clientes.Name = "pctbox_clientes";
+            this.pctbox_clientes.Size = new System.Drawing.Size(42, 39);
+            this.pctbox_clientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctbox_clientes.TabIndex = 28;
+            this.pctbox_clientes.TabStop = false;
+            // 
+            // pctbox_vendas
+            // 
+            this.pctbox_vendas.BackColor = System.Drawing.Color.Transparent;
+            this.pctbox_vendas.Image = ((System.Drawing.Image)(resources.GetObject("pctbox_vendas.Image")));
+            this.pctbox_vendas.Location = new System.Drawing.Point(75, 111);
+            this.pctbox_vendas.Name = "pctbox_vendas";
+            this.pctbox_vendas.Size = new System.Drawing.Size(42, 39);
+            this.pctbox_vendas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctbox_vendas.TabIndex = 27;
+            this.pctbox_vendas.TabStop = false;
+            // 
+            // pctbox_home
+            // 
+            this.pctbox_home.BackColor = System.Drawing.Color.Transparent;
+            this.pctbox_home.Image = ((System.Drawing.Image)(resources.GetObject("pctbox_home.Image")));
+            this.pctbox_home.Location = new System.Drawing.Point(75, 66);
+            this.pctbox_home.Name = "pctbox_home";
+            this.pctbox_home.Size = new System.Drawing.Size(42, 39);
+            this.pctbox_home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctbox_home.TabIndex = 26;
+            this.pctbox_home.TabStop = false;
             // 
             // btn_produtos
             // 
@@ -165,6 +209,17 @@
             this.panel2.Size = new System.Drawing.Size(133, 60);
             this.panel2.TabIndex = 0;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(76, 60);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(57, 45);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
             // panel_Form
             // 
             this.panel_Form.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -203,61 +258,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(76, 60);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(57, 45);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(75, 66);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 26;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(75, 111);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 27;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(75, 201);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 27;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(75, 156);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(42, 39);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 28;
-            this.pictureBox6.TabStop = false;
-            // 
             // FRM_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -272,14 +272,14 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FRM_Principal_Load_1);
             this.panelPrincipal.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox_produtos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox_clientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox_vendas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox_home)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel_Form.ResumeLayout(false);
             this.panel_Form.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -297,10 +297,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pctbox_home;
+        private System.Windows.Forms.PictureBox pctbox_produtos;
+        private System.Windows.Forms.PictureBox pctbox_clientes;
+        private System.Windows.Forms.PictureBox pctbox_vendas;
     }
 }
 

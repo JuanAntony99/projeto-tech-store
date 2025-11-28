@@ -68,7 +68,7 @@ namespace projeto_TechStore.DAL
             {
                 _conexao.Open();
 
-                string _sql = "UPDATE TB_CLIENTES SET nome=@nome,email=@email WHERE id=@id";
+                string _sql = "UPDATE TB_CLIENTES SET nome=@nome,email=@email,telefone=@telefone,cpf=@cpf WHERE id=@id";
                 comando = new MySqlCommand(_sql, _conexao);
 
                 comando.CommandText = _sql;
@@ -77,6 +77,8 @@ namespace projeto_TechStore.DAL
                 comando.Parameters.AddWithValue("id", clientes.id);
                 comando.Parameters.AddWithValue("nome", clientes.nome);
                 comando.Parameters.AddWithValue("email", clientes.email);
+                comando.Parameters.AddWithValue("telefone", clientes.telefone);
+                comando.Parameters.AddWithValue("cpf", clientes.cpf);
 
                 comando.Prepare();
                 comando.ExecuteNonQuery();
@@ -95,24 +97,26 @@ namespace projeto_TechStore.DAL
                 }
             }
         }
-
+        
         public void Inserir_Clientes(Clientes clientes)
         {
             try
             {
-                _conexao.Open();
+              _conexao.Open();
 
-                string _sql = "INSERT INTO TB_CLIENTES (nome,email) VALUES (@nome,@email)";
-                comando = new MySqlCommand(_sql, _conexao);
+              string _sql = "INSERT INTO TB_CLIENTES (nome,email,telefone,cpf) VALUES (@nome,@email,@telefone,@cpf)";
+              comando = new MySqlCommand(_sql, _conexao);
 
-                comando.CommandText = _sql;
-                comando.Connection = _conexao;
+              comando.CommandText = _sql;
+              comando.Connection = _conexao;
 
-                comando.Parameters.AddWithValue("@nome", clientes.nome);
-                comando.Parameters.AddWithValue("@email", clientes.email);
+              comando.Parameters.AddWithValue("@nome", clientes.nome);
+              comando.Parameters.AddWithValue("@email", clientes.email);
+              comando.Parameters.AddWithValue("@telefone", clientes.telefone);
+              comando.Parameters.AddWithValue("@cpf", clientes.cpf);
 
-                comando.Prepare();
-                comando.ExecuteNonQuery();
+              comando.Prepare();
+              comando.ExecuteNonQuery();
 
                 MessageBox.Show("Cliente inserido com sucesso!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -122,7 +126,7 @@ namespace projeto_TechStore.DAL
             }
             finally
             {
-                if (_conexao.State == ConnectionState.Open)
+               if (_conexao.State == ConnectionState.Open)
                 { 
                     _conexao.Close();
                 }
@@ -162,29 +166,26 @@ namespace projeto_TechStore.DAL
 
             public DataTable Selecionar_Clientes_porID(int id)
         {
-            // A conexão está aberta APENAS para o escopo do MySqlDataAdapter, 
-            // então a abertura/fechamento da conexão pode ser omitida aqui ou 
-            // feita dentro de um bloco using no MySqlDataAdapter para melhor gerenciamento.
+
 
             DataTable dt = new DataTable();
-            // A string SQL está correta agora (assumindo que você removeu o 'W' e 'v.')
+
             string sql = "SELECT * FROM tb_clientes WHERE id = @id";
 
-            using (MySqlCommand comandoSql = new MySqlCommand(sql, _conexao)) // Usando 'using' aqui seria ideal
+            using (MySqlCommand comandoSql = new MySqlCommand(sql, _conexao))
             {
-                // 1. Adicionar o parâmetro com tipo explícito (mais seguro)
+                //
                 comandoSql.Parameters.Add("@id", MySqlDbType.Int32).Value = id;
 
-                // 2. Criar o DataAdapter para executar a query e preencher a tabela
+                //
                 MySqlDataAdapter sql_relacao = new MySqlDataAdapter(comandoSql);
 
                 try
                 {
-                    // A abertura da conexão é necessária para o Fill, se a conexão 
-                    // não for gerenciada pelo DataAdapter implicitamente.
+                    //
                     _conexao.Open();
 
-                    sql_relacao.Fill(dt); // Executa a consulta SELECT e preenche o DataTable
+                    sql_relacao.Fill(dt); 
 
                     return dt;
                 }
@@ -195,7 +196,7 @@ namespace projeto_TechStore.DAL
                 }
                 finally
                 {
-                    // 3. O fechamento da conexão está correto no finally
+                    // 
                     if (_conexao != null && _conexao.State == ConnectionState.Open)
                     {
                         _conexao.Close();
