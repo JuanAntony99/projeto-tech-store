@@ -30,6 +30,11 @@ namespace projeto_TechStore
 
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
@@ -128,6 +133,11 @@ namespace projeto_TechStore
             }
         }
 
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
@@ -142,6 +152,11 @@ namespace projeto_TechStore
         {
             FRM_VendasSelect f = new FRM_VendasSelect();
             f.ShowDialog();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

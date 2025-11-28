@@ -45,13 +45,15 @@
             this.txt_dataVenda = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_listar = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 9);
@@ -64,7 +66,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(115, 95);
+            this.label2.Location = new System.Drawing.Point(18, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(25, 17);
             this.label2.TabIndex = 2;
@@ -73,7 +75,7 @@
             // txt_id
             // 
             this.txt_id.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.txt_id.Location = new System.Drawing.Point(115, 115);
+            this.txt_id.Location = new System.Drawing.Point(21, 134);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(100, 20);
             this.txt_id.TabIndex = 3;
@@ -82,7 +84,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(265, 95);
+            this.label4.Location = new System.Drawing.Point(18, 160);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(72, 17);
             this.label4.TabIndex = 6;
@@ -92,7 +94,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(156, 199);
+            this.label6.Location = new System.Drawing.Point(394, 160);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(86, 17);
             this.label6.TabIndex = 10;
@@ -103,7 +105,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(415, 95);
+            this.label7.Location = new System.Drawing.Point(274, 160);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(79, 17);
             this.label7.TabIndex = 12;
@@ -111,10 +113,10 @@
             // 
             // btn_adicionar
             // 
-            this.btn_adicionar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
+            this.btn_adicionar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btn_adicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_adicionar.ForeColor = System.Drawing.Color.White;
-            this.btn_adicionar.Location = new System.Drawing.Point(552, 350);
+            this.btn_adicionar.Location = new System.Drawing.Point(545, 380);
             this.btn_adicionar.Name = "btn_adicionar";
             this.btn_adicionar.Size = new System.Drawing.Size(104, 35);
             this.btn_adicionar.TabIndex = 16;
@@ -124,10 +126,10 @@
             // 
             // btn_editar
             // 
-            this.btn_editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
+            this.btn_editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btn_editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editar.ForeColor = System.Drawing.Color.White;
-            this.btn_editar.Location = new System.Drawing.Point(428, 350);
+            this.btn_editar.Location = new System.Drawing.Point(422, 380);
             this.btn_editar.Name = "btn_editar";
             this.btn_editar.Size = new System.Drawing.Size(104, 35);
             this.btn_editar.TabIndex = 17;
@@ -137,10 +139,10 @@
             // 
             // btn_excluir
             // 
-            this.btn_excluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
+            this.btn_excluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btn_excluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_excluir.ForeColor = System.Drawing.Color.White;
-            this.btn_excluir.Location = new System.Drawing.Point(297, 350);
+            this.btn_excluir.Location = new System.Drawing.Point(294, 380);
             this.btn_excluir.Name = "btn_excluir";
             this.btn_excluir.Size = new System.Drawing.Size(104, 35);
             this.btn_excluir.TabIndex = 18;
@@ -150,10 +152,10 @@
             // 
             // btn_limparCampos
             // 
-            this.btn_limparCampos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
+            this.btn_limparCampos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btn_limparCampos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_limparCampos.ForeColor = System.Drawing.Color.White;
-            this.btn_limparCampos.Location = new System.Drawing.Point(15, 350);
+            this.btn_limparCampos.Location = new System.Drawing.Point(20, 380);
             this.btn_limparCampos.Name = "btn_limparCampos";
             this.btn_limparCampos.Size = new System.Drawing.Size(130, 35);
             this.btn_limparCampos.TabIndex = 19;
@@ -165,17 +167,17 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.pictureBox1.Location = new System.Drawing.Point(-4, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(679, 48);
+            this.pictureBox1.Size = new System.Drawing.Size(924, 48);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // txt_idcliente
             // 
             this.txt_idcliente.BackColor = System.Drawing.Color.White;
-            this.txt_idcliente.Location = new System.Drawing.Point(265, 115);
+            this.txt_idcliente.Location = new System.Drawing.Point(21, 180);
             this.txt_idcliente.Name = "txt_idcliente";
             this.txt_idcliente.Size = new System.Drawing.Size(100, 20);
             this.txt_idcliente.TabIndex = 21;
@@ -183,7 +185,7 @@
             // txt_idproduto
             // 
             this.txt_idproduto.BackColor = System.Drawing.Color.White;
-            this.txt_idproduto.Location = new System.Drawing.Point(415, 115);
+            this.txt_idproduto.Location = new System.Drawing.Point(277, 180);
             this.txt_idproduto.Name = "txt_idproduto";
             this.txt_idproduto.Size = new System.Drawing.Size(100, 20);
             this.txt_idproduto.TabIndex = 22;
@@ -192,7 +194,7 @@
             // txt_quantidade
             // 
             this.txt_quantidade.BackColor = System.Drawing.Color.White;
-            this.txt_quantidade.Location = new System.Drawing.Point(156, 219);
+            this.txt_quantidade.Location = new System.Drawing.Point(395, 180);
             this.txt_quantidade.Name = "txt_quantidade";
             this.txt_quantidade.Size = new System.Drawing.Size(120, 20);
             this.txt_quantidade.TabIndex = 23;
@@ -200,7 +202,7 @@
             // txt_dataVenda
             // 
             this.txt_dataVenda.BackColor = System.Drawing.Color.White;
-            this.txt_dataVenda.Location = new System.Drawing.Point(334, 219);
+            this.txt_dataVenda.Location = new System.Drawing.Point(139, 180);
             this.txt_dataVenda.Name = "txt_dataVenda";
             this.txt_dataVenda.Size = new System.Drawing.Size(120, 20);
             this.txt_dataVenda.TabIndex = 25;
@@ -210,18 +212,19 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(334, 199);
+            this.label3.Location = new System.Drawing.Point(136, 160);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 17);
             this.label3.TabIndex = 24;
             this.label3.Text = "Data da Venda:";
+            this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // btn_listar
             // 
-            this.btn_listar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
+            this.btn_listar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btn_listar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_listar.ForeColor = System.Drawing.Color.White;
-            this.btn_listar.Location = new System.Drawing.Point(167, 350);
+            this.btn_listar.Location = new System.Drawing.Point(169, 380);
             this.btn_listar.Name = "btn_listar";
             this.btn_listar.Size = new System.Drawing.Size(104, 35);
             this.btn_listar.TabIndex = 33;
@@ -229,12 +232,22 @@
             this.btn_listar.UseVisualStyleBackColor = false;
             this.btn_listar.Click += new System.EventHandler(this.btn_listar_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(21, 206);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(629, 137);
+            this.dataGridView1.TabIndex = 34;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
             // FRM_Vendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(667, 450);
+            this.ClientSize = new System.Drawing.Size(912, 589);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.txt_dataVenda);
             this.Controls.Add(this.label3);
@@ -257,6 +270,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FRM_Tarefas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -280,5 +294,6 @@
         private System.Windows.Forms.TextBox txt_dataVenda;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_listar;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -60,7 +60,7 @@ namespace projeto_TechStore
 
             if (!(string.IsNullOrWhiteSpace(txt_id.Text)))
             {
-                DialogResult result = MessageBox.Show("Tem certeza que deseja excluir o produto?", "Confirmar Exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult result = MessageBox.Show("Tem certeza que deseja excluir o produto?", "Confirmar Exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (result == DialogResult.Yes)
                 {
@@ -130,6 +130,11 @@ namespace projeto_TechStore
         {
             FRM_ProdutosSelect f = new FRM_ProdutosSelect();
             f.ShowDialog();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
