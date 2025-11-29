@@ -104,7 +104,6 @@
             this.label2.Size = new System.Drawing.Size(25, 17);
             this.label2.TabIndex = 38;
             this.label2.Text = "ID:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -238,7 +237,6 @@
             this.label5.Size = new System.Drawing.Size(64, 16);
             this.label5.TabIndex = 49;
             this.label5.Text = "Telefone:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // FRM_Clientes
             // 

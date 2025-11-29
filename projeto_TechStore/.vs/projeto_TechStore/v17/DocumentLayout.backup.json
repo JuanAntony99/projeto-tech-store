@@ -1,16 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aluno grau\\Downloads\\projeto-tech-store-main (1)\\projeto-tech-store-main\\projeto_TechStore\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|c:\\users\\aluno grau\\downloads\\projeto-tech-store-main (1)\\projeto-tech-store-main\\projeto_techstore\\forms\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|solutionrelative:forms\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|C:\\Users\\Aluno grau\\Downloads\\projeto-tech-store-main (1)\\projeto-tech-store-main\\projeto_TechStore\\forms\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E990D1E5-4691-40A1-BCED-9FFA1BBE160A}|projeto_TechStore.csproj|solutionrelative:forms\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Juan Antony\\Desktop\\projeto_TechStore\\projeto_TechStore\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,31 +9,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FRM_Principal.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno grau\\Downloads\\projeto-tech-store-main (1)\\projeto-tech-store-main\\projeto_TechStore\\Forms\\FRM_Principal.cs",
-              "RelativeDocumentMoniker": "Forms\\FRM_Principal.cs",
-              "ToolTip": "C:\\Users\\Aluno grau\\Downloads\\projeto-tech-store-main (1)\\projeto-tech-store-main\\projeto_TechStore\\Forms\\FRM_Principal.cs",
-              "RelativeToolTip": "Forms\\FRM_Principal.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T23:59:03.038Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FRM_Principal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aluno grau\\Downloads\\projeto-tech-store-main (1)\\projeto-tech-store-main\\projeto_TechStore\\Forms\\FRM_Principal.cs",
-              "RelativeDocumentMoniker": "Forms\\FRM_Principal.cs",
-              "ToolTip": "C:\\Users\\Aluno grau\\Downloads\\projeto-tech-store-main (1)\\projeto-tech-store-main\\projeto_TechStore\\Forms\\FRM_Principal.cs [Design]",
-              "RelativeToolTip": "Forms\\FRM_Principal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T23:58:59.084Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

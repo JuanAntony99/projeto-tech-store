@@ -30,6 +30,8 @@ namespace projeto_TechStore.Forms
             txt_id.Text = string.Empty;
             txt_email.Text = string.Empty;
             txt_nome.Text = string.Empty;
+            txt_telefone.Text = string.Empty;
+            txt_cpf.Text = string.Empty;
             txt_nome.Focus();
         }
 
@@ -62,6 +64,8 @@ namespace projeto_TechStore.Forms
             {
                 tar.nome = txt_nome.Text;
                 tar.email = txt_email.Text;
+                tar.telefone = txt_telefone.Text;
+                tar.cpf = txt_cpf.Text;
                 itar.Inserir_Clientes(tar);
                 LimparCampos();
             }
@@ -97,6 +101,8 @@ namespace projeto_TechStore.Forms
                 tar.id = int.Parse(txt_id.Text);
                 tar.nome = txt_nome.Text;
                 tar.email = txt_email.Text;
+                tar.telefone = txt_telefone.Text;
+                tar.cpf = txt_cpf.Text;
                 itar.Editar_Clientes(tar);
                 LimparCampos();
             }
@@ -111,16 +117,6 @@ namespace projeto_TechStore.Forms
         {
             FRM_ClientesSelect f = new FRM_ClientesSelect();
             f.ShowDialog();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

@@ -102,7 +102,7 @@ namespace projeto_TechStore.DAL
             {
                 _conexao.Open();
 
-                string _sql = "INSERT INTO TB_CLIENTES (nome,email) VALUES (@nome,@email)";
+                string _sql = "INSERT INTO TB_CLIENTES (nome,email,telefone,cpf) VALUES (@nome,@email,@telefone,@cpf)";
                 comando = new MySqlCommand(_sql, _conexao);
 
                 comando.CommandText = _sql;
@@ -110,6 +110,8 @@ namespace projeto_TechStore.DAL
 
                 comando.Parameters.AddWithValue("@nome", clientes.nome);
                 comando.Parameters.AddWithValue("@email", clientes.email);
+                comando.Parameters.AddWithValue("@telefone", clientes.telefone);
+                comando.Parameters.AddWithValue("@cpf", clientes.cpf);
 
                 comando.Prepare();
                 comando.ExecuteNonQuery();
