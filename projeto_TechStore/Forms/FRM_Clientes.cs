@@ -63,14 +63,14 @@ namespace projeto_TechStore.Forms
             {
                 tar.nome = txt_nome.Text;
                 tar.email = txt_email.Text;
-<<<<<<< HEAD
+
                 tar.telefone = txt_telefone.Text;
                 tar.cpf = txt_cpf.Text;
-=======
+
                 tar.telefone = string.IsNullOrWhiteSpace(txt_telefone.Text) ? null : txt_telefone.Text;
                 tar.cpf = string.IsNullOrWhiteSpace(txt_cpf.Text) ? null : txt_cpf.Text;
 
->>>>>>> 76f94cd21300fefd35539449a33105e0a7b6314a
+
                 itar.Inserir_Clientes(tar);
                 LimparCampos();
             }

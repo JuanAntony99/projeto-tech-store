@@ -97,38 +97,28 @@ namespace projeto_TechStore.DAL
                 }
             }
         }
-        
+
         public void Inserir_Clientes(Clientes clientes)
         {
             try
             {
-              _conexao.Open();
+                _conexao.Open();
 
-<<<<<<< HEAD
+
                 string _sql = "INSERT INTO TB_CLIENTES (nome,email,telefone,cpf) VALUES (@nome,@email,@telefone,@cpf)";
                 comando = new MySqlCommand(_sql, _conexao);
-=======
-              string _sql = "INSERT INTO TB_CLIENTES (nome,email,telefone,cpf) VALUES (@nome,@email,@telefone,@cpf)";
-              comando = new MySqlCommand(_sql, _conexao);
->>>>>>> 76f94cd21300fefd35539449a33105e0a7b6314a
 
-              comando.CommandText = _sql;
-              comando.Connection = _conexao;
+                comando.CommandText = _sql;
+                comando.Connection = _conexao;
 
-<<<<<<< HEAD
                 comando.Parameters.AddWithValue("@nome", clientes.nome);
                 comando.Parameters.AddWithValue("@email", clientes.email);
                 comando.Parameters.AddWithValue("@telefone", clientes.telefone);
                 comando.Parameters.AddWithValue("@cpf", clientes.cpf);
-=======
-              comando.Parameters.AddWithValue("@nome", clientes.nome);
-              comando.Parameters.AddWithValue("@email", clientes.email);
-              comando.Parameters.AddWithValue("@telefone", clientes.telefone);
-              comando.Parameters.AddWithValue("@cpf", clientes.cpf);
->>>>>>> 76f94cd21300fefd35539449a33105e0a7b6314a
 
-              comando.Prepare();
-              comando.ExecuteNonQuery();
+
+                comando.Prepare();
+                comando.ExecuteNonQuery();
 
                 MessageBox.Show("Cliente inserido com sucesso!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -138,8 +128,8 @@ namespace projeto_TechStore.DAL
             }
             finally
             {
-               if (_conexao.State == ConnectionState.Open)
-                { 
+                if (_conexao.State == ConnectionState.Open)
+                {
                     _conexao.Close();
                 }
             }
@@ -176,7 +166,7 @@ namespace projeto_TechStore.DAL
             }
         }
 
-            public DataTable Selecionar_Clientes_porID(int id)
+        public DataTable Selecionar_Clientes_porID(int id)
         {
 
 
@@ -197,7 +187,7 @@ namespace projeto_TechStore.DAL
                     //
                     _conexao.Open();
 
-                    sql_relacao.Fill(dt); 
+                    sql_relacao.Fill(dt);
 
                     return dt;
                 }
@@ -217,4 +207,4 @@ namespace projeto_TechStore.DAL
             }
         }
     }
-    }
+}
